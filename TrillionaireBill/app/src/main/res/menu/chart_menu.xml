@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_expenditure"
+        android:title="一级支出" />
+
+    <item
+        android:id="@+id/item_expenditure_second"
+        android:title="二级支出" />
+
+    <item
+        android:id="@+id/item_income"
+        android:title="一级收入" />
+
+    <item
+        android:id="@+id/item_income_second"
+        android:title="二级收入" />
+
+    <item
+        android:id="@+id/item_expenditure_membe"
+        android:title="成员支出" />
+
+    <item
+        android:id="@+id/item_income_member"
+        android:title="成员收入" />
+
+    <item
+        android:id="@+id/item_expenditure_merchant"
+        android:title="商家支出"/>
+
+    <item
+        android:id="@+id/item_income_merchant"
+        android:title="商家收入" />
+
+    <item
+        android:id="@+id/item_expenditure_account"
+        android:title="账户支出"/>
+
+    <item
+        android:id="@+id/item_income_account"
+        android:title="账户收入" />
+</menu>

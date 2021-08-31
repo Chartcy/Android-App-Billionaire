@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="i.com.TrillionaireBill">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/trillionairebill"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/trillionairebill_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="i.com.TrillionaireBill.login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="i.com.TrillionaireBill.account.AccoutAddActivity"/>
+
+        <activity android:name="i.com.TrillionaireBill.account.AccountAddDetailsActivity"/>
+
+        <activity android:name="i.com.TrillionaireBill.MainActivity"/>
+
+        <activity android:name="i.com.TrillionaireBill.bookkeeping.BookKeepingActivity"/>
+
+        <activity android:name="i.com.TrillionaireBill.login.Main2Activity"/>
+
+        <activity android:name="i.com.TrillionaireBill.login.SetGestureActivity"/>
+
+        <activity android:name="i.com.TrillionaireBill.bookkeeping.AddMemberActivity"/>
+
+        <activity android:name="i.com.TrillionaireBill.account.AccountRunningWaterActivity"/>
+
+        <activity android:name="i.com.TrillionaireBill.account.EditAccountNameActivity"/>
+        <activity android:name="i.com.TrillionaireBill.settting.EditPasswordActivity"/>
+
+        <activity android:name="i.com.TrillionaireBill.addclassify.AddclassificationActivity"/>
+        <activity android:name="i.com.TrillionaireBill.addclassify.AddClassifcationOneActivity"/>
+        <activity android:name="i.com.TrillionaireBill.addclassify.AddClassifcationTwoActivity"/>
+        <activity android:name="i.com.TrillionaireBill.addclassify.AddBusinessActivity"/>
+        <activity android:name="i.com.TrillionaireBill.flowingwater.account.AccountItemActivity"/>
+
+    </application>
+
+</manifest>

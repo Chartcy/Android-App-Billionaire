@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_ffffff_bottom_5dp">
+
+            <View
+                android:layout_width="265dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="59dp"
+                android:background="#f0f0f0" />
+
+            <View
+                android:layout_width="265dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="95dp"
+                android:background="#f0f0f0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ListView
+                    android:id="@+id/lv_dialog1_1"
+                    android:layout_width="75dp"
+                    android:layout_height="111dp"
+                    android:background="#00000000"
+                    android:divider="@null"
+                    android:dividerHeight="22dp"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/lv_dialog1_2"
+                        android:layout_width="105dp"
+                        android:layout_height="111dp"
+                        android:background="#00000000"
+                        android:divider="@null"
+                        android:dividerHeight="22dp"
+                        android:overScrollMode="never"
+                        android:scrollbars="none" />
+
+                    <TextView
+                        android:id="@+id/add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="+ 添加分类"
+                        android:textColor="#FF9D0D" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="59dp"-->
+            <!--android:background="#7fFFFFFF"-->
+            <!--android:clickable="true" />-->
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="59dp"-->
+            <!--android:layout_marginTop="96dp"-->
+            <!--android:background="#7fFFFFFF"-->
+            <!--android:clickable="true" />-->
+
+            <Button
+                android:id="@+id/bt_dialog1"
+                android:layout_width="233dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="8dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/shape_bg_c24333_5dp"
+                android:text="确定"
+                android:textColor="#ffffff"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

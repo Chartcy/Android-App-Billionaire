@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">TrillionaireBill</string>
+
+    <string-array name="province">
+        <item>  </item>
+        <item>食品酒水</item>
+        <item>居家物业</item>
+        <item>衣服饰品</item>
+        <item>行车交通</item>
+        <item>交流通讯</item>
+        <item>休闲娱乐</item>
+        <item>学习进修</item>
+        <item>  </item>
+    </string-array>
+    <string-array name="def">
+        <item>-二级分类-</item>
+    </string-array>
+    <string-array name="食品酒水">
+        <item>  </item>
+        <item>早午晚餐</item>
+        <item>烟酒茶</item>
+        <item>水果零食</item>
+        <item>午餐</item>
+        <item>  </item>
+    </string-array>
+
+    <string-array name="居家物业">
+        <item>  </item>
+        <item>日常用品</item>
+        <item>水电煤气</item>
+        <item>房租</item>
+        <item>物业管理</item>
+        <item>维修保养</item>
+        <item>  </item>
+    </string-array>
+
+    <string-array name="衣服饰品">
+        <item>  </item>
+        <item>衣服裤子</item>
+        <item>鞋帽包包</item>
+        <item>化妆饰品</item>
+        <item>  </item>
+    </string-array>
+    <string-array name="行车交通">
+        <item>  </item>
+        <item>公共交通</item>
+        <item>打车租车</item>
+        <item>私家车费用</item>
+        <item>  </item>
+    </string-array>
+
+    <string-array name="交流通讯">
+        <item>  </item>
+        <item>座机费</item>
+        <item>手机费</item>
+        <item>上网费</item>
+        <item>邮寄费</item>
+        <item>  </item>
+    </string-array>
+
+    <string-array name="休闲娱乐">
+        <item>  </item>
+        <item>运动健身</item>
+        <item>腐败聚会</item>
+        <item>休闲玩乐</item>
+        <item>宠物宝贝</item>
+        <item>旅游度假</item>
+        <item>  </item>
+    </string-array>
+
+    <string-array name="学习进修">
+        <item>  </item>
+        <item>数据装备</item>
+        <item>书报杂志</item>
+        <item>培训进修</item>
+        <item>  </item>
+    </string-array>
+
+
+</resources>
